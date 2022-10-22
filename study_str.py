@@ -78,7 +78,6 @@ while True:
 for item in [1, 2, 3, 4]:
     print(item)
 
-
 # 문자열 나누기
 string = "가나다라 마바사"
 
