@@ -79,21 +79,26 @@ temp = True and False
 
 # print(temp)
 
-def my_func():
-    while True:
-        yield 1
-        yield 2
-        yield 3
+# def my_func():
+#     while True:
+#         yield 1
+#         yield 2
+#         yield 3
 
 
-my_yield_data = my_func()
+# my_yield_data = my_func()
 
-for item in my_yield_data:
-    print(item)
+# for item in my_yield_data:
+#     print(item)
 
 # print(next(my_yield_data))
 # print(next(my_yield_data))
 # print(next(my_yield_data))
 # print(next(my_yield_data))
 
+def check_str(data : str):
+    return data.endswith("마")
+# False
 
+
+print(check_str("가나다"))
