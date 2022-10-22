@@ -162,3 +162,4 @@ temp = temp.rjust(5, "!")
 # temp='!!!!1'
 
 print(f"{temp=}")
+
