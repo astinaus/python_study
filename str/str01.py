@@ -155,6 +155,7 @@ temp = temp.zfill(2)
 # 빈 자리수를 0으로 채운다.
 # temp='01'
 
+
 temp = "1"
 temp = temp.rjust(5, "!")
 # 내가 원하는 문자로 채울 수 있다.
